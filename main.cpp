@@ -1,7 +1,21 @@
 #include <iostream>
-#include <sorting.h>
+#include "Sorting.cpp"
+#include "Selection.cpp"
+#include "Bubble.cpp"
+#include "Heap.cpp"
+#include "Insertion.cpp"
+#include "Merge.cpp"
+#include "Quick.cpp"
+int main() {
+    int* arr = new int[6];
+    for(int i = 5; i >= 0; i--){
+        arr[i] = i;
+    }
+    Selection<int> as(arr, 6);
+    as.Sort_array();
+    as.Print_array();
 
-int main (int, char * []){
-    std::cout << "Hello World" << std::endl;
-    return 1;
+
+    std::cout << "Hola mundo" << std::endl;
+    return 0;
 }
