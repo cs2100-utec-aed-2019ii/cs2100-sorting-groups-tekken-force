@@ -10,7 +10,7 @@
 
 		j = i;
 		while (j>0 && this->arr[j-1]>this->arr[j]){
-			std::swap(this->arr[j], arr[j-1]);
+			std::swap(this->arr[j],this->arr[j-1]);
 			j--;
 		}
 
