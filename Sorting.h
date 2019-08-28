@@ -12,6 +12,7 @@ protected:
 public:
     Sorting(T *arr,int size);
     Sorting();
+    void Swap(int a, int b);
     void Print_array();
     virtual void Sort_array() = 0;
 };
