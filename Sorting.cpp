@@ -16,7 +16,7 @@
     }
 
     template<typename T>
-    void Sorting<T>::Swap(int& a, int& b){
+    void Sorting<T>::Swap(T& a, T& b){
         T temp = a;
         a = b;
         b = temp;
