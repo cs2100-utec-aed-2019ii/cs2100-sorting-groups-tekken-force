@@ -3,6 +3,7 @@
 #include "Insertion.cpp"
 #include "Bubble.cpp"
 #include "Heap.cpp"
+#include "Selection.cpp"
 int main() {
     int* arr = new int[6];
     for(int i = 0; i <= 10; i++){
