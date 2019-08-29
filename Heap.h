@@ -8,7 +8,7 @@ class Heap : public Sorting<T> {
 public:
         Heap(T *arr, int size);
         void Sort_array();
-        void heap(T *a, int i, int delim);
+        void heap(T *a, int n, int i);
 };
 
 
