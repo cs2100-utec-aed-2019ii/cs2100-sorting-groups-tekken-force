@@ -6,13 +6,14 @@
 #include "Selection.cpp"
 #include "Merge.cpp"
 #include "Quick.cpp"
+#include "Shell.cpp"
 int main() {
     int* arr = new int[6];
     for(int i = 0; i <= 10; i++){
         arr[i] = 20-i;
     }
 
-    Heap<int> as(arr, 6);
+    Shell<int> as(arr, 6);
 
     as.Print_array();
     as.Sort_array();
