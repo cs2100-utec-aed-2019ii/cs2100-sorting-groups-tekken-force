@@ -5,6 +5,7 @@
 #include "Heap.cpp"
 #include "Selection.cpp"
 #include "Merge.cpp"
+#include "Quick.cpp"
 int main() {
     int* arr = new int[6];
     for(int i = 0; i <= 10; i++){
